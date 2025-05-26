@@ -1,6 +1,6 @@
 length = 10
 width = 5
 
-area_results = length * width 
+area = length * width 
 
-print(f"multiplication of {length} and {width} is {area_results}")
+print(f"The area of the rectangle is: {area}")
