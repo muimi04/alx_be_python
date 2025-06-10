@@ -1,0 +1,15 @@
+y ='global y'
+
+def outer():
+    y = 'outer y'
+
+    def inner():
+        nonlocal
+        y = 'inner y'
+        print(y)
+
+    inner()
+    print(y)
+outer()
+print(y)       
+
