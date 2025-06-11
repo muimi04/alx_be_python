@@ -13,6 +13,4 @@ def perform_operation(num1: float, num2: float, operation: str):
         return num1 / num2
     else:
         return "Error: Invalid operation"
-if __name__ == "__main__":
-    # Simple test
-    print(perform_operation(10, 5, 'add'))  # Output: 15.0
+
